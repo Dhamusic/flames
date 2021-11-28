@@ -8,11 +8,12 @@ function flames()
     var d = new String(b);
     var e = c.length;
     var f = d.length;
-    
+    var z = c.toUpperCase();
+    var y = d.toUpperCase();
     var count=0;
     for(var i=0;i<e;i++)
     {
-        if(c.includes(d[i]))
+        if(z.includes(y[i]))
             count++;
     }
     g=(e+f)-(2*count);
