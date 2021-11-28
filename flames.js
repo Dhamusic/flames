@@ -11,11 +11,27 @@ function flames()
     var z = c.toUpperCase();
     var y = d.toUpperCase();
     var count=0;
+
+    if((z=="DHAMODHARAN" && y=="DIVYAPRIYA") || (z=="DIVYAPRIYA" && y=="DHAMODHARAN" ))
+    {
+        document.write(" Ammaa pullaiii... ");
+    }
+
+    else
+    {
     for(var i=0;i<e;i++)
     {
-        if(z.includes(y[i]))
-            count++;
+        for(var j=0;j<f;j++)
+        {
+            if(z[i]==y[j])
+            {
+                count++;
+                y=y.replace(y[j],'');
+                break;
+            }
+        }
     }
+
     g=(e+f)-(2*count);
     var h = new String();
     
@@ -60,7 +76,8 @@ function flames()
     if(g==20)
         h="Enemy";
 
-    document.write( h );
-
-}
+    {
+        document.write( h );
+    }
+}}
 
