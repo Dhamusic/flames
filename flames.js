@@ -77,7 +77,7 @@ function flames()
         h="Enemy";
 
     {
-        document.write( h );
+        document.getElementById("res").innerHTML = h ;
     }
 }}
 

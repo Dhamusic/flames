@@ -1,0 +1,62 @@
+#background {
+    background-color: lightblue;
+  }
+#head{
+    color: red;
+    position:fixed;
+    text-align:center;
+    font-size: 3rem;
+    margin-top: 3cm;
+    margin-left: 120mm;
+   
+}
+#box1{
+    
+    background-color: rgb(187, 196, 187);
+    border:0.1cm solid rgb(6, 212, 6);
+    padding: 2px;
+
+    position: fixed;
+    margin-top:14cm;
+    margin-left :10cm;
+    
+}
+#box2{
+    
+   
+    background-color: rgb(187, 196, 187);
+    border:0.1cm solid rgb(6, 212, 6);
+    padding: 2px;
+    position: fixed;
+    margin-top:14cm;
+    margin-left :22cm;
+    
+    
+}
+#heart{
+    background-color:black;
+    border-radius: 20%;
+    height: 4cm;
+    width:6cm;
+    position: fixed;
+    margin-left: 15.5cm;
+    margin-top:7cm;
+
+}
+#button{
+    
+    background-color: rgb(187, 196, 187);
+    border:0.1cm solid rgb(6, 212, 6);
+    padding: 5px;
+    position: fixed;
+    margin-top:14cm;
+    margin-left :18cm;
+}
+
+#res{
+    font-size: 5rem;
+    padding: 5px;
+    position: fixed;
+    margin-top:11cm;
+    margin-left :15cm;
+}
