@@ -2,23 +2,26 @@
 <html>
 <head>
     <link rel="stylesheet" href="flames.css">
-     <img  id=heart src="heart.png">
+
      <script src="flames.js"></script>
 </head>
-<body id=background>
-    
-   <p id=head>LOVE CALCULATER</p>
-        <div id=box1>
-          <input  type="text" placeholder="Your Name" id="a">
-        </div>
-        <div>
-            <button onclick="flames()" id="button"> click </button>
-            <h2 id="res"></h2>
-        </div>
-        <div id=box2>
-          <input type="text" placeholder="Your lover's Name" id="b">
-        </div>
+<body>
+  <div id="background">
+    <img id="img" src="flames11.jpg">
+    <p id="head">FLAMES</p>
+   
+    <button type="button" onclick="flames()" id="button">Click</button>
         
-        
-    </body>
+    <div id="box1">
+      <input id="a" type="text" placeholder="First person's name">
+    </div>
+    <div id="box2">
+      <input id="b" type="text" placeholder="Second person's name">
+    </div>
+    <div id="resdiv">
+      <h2 id="res"></h2>
+          
+    </div>
+  </div>
+</body>
 </html>

@@ -14,7 +14,17 @@ function flames()
 
     if((z=="DHAMODHARAN" && y=="DIVYAPRIYA") || (z=="DIVYAPRIYA" && y=="DHAMODHARAN" ))
     {
-        document.write(" Ammaa pullaiii... ");
+        document.getElementById("res").innerHTML = "Ammmaa pullaiii.." ;
+    }
+
+    else if((z=="DHAMODHARAN" && y=="HEMALATHA") || (z=="HEMALATHA" && y=="DHAMODHARAN" ))
+    {
+        document.getElementById("res").innerHTML = "Anna Thangachi." ;
+    }
+
+    else if((z=="DHAMODHARAN" && y=="MAHADEVI") || (z=="MAHADEVI" && y=="DHAMODHARAN" ))
+    {
+        document.getElementById("res").innerHTML = "Anna Thangachi.." ;
     }
 
     else
@@ -79,5 +89,8 @@ function flames()
     {
         document.getElementById("res").innerHTML = h ;
     }
-}}
+}
+
+}
+
 
